@@ -47,4 +47,6 @@ dependencies {
 
     //Permission-controller Module adding
     implementation project(path: ':permission-controller')
+    //implementation 'com.github.Riz1ahmed:PermissionController:1.0.2'
+
 }

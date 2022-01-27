@@ -49,8 +49,8 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.riz1ahmed'
-                artifactId = 'PermissionController'
-                version = '1.0.0'
+                artifactId = 'permissioncontroller'
+                version = '1.0.2'
             }
         }
     }
