@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.video_lab.permission_controller">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application>
+        <activity
+            android:name="com.video_lab.permission_controller.PermissionCheckerActivity"
+            android:theme="@style/Theme.TransparentActivity" />
+    </application>
+</manifest>
